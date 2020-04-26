@@ -205,6 +205,82 @@
 		44F968181E4263DC00392763 /* TextViewLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F968161E42639500392763 /* TextViewLayoutTests.swift */; };
 		44F968191E4263DC00392763 /* TextViewLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F968161E42639500392763 /* TextViewLayoutTests.swift */; };
 		44F9681A1E42640400392763 /* TextViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F968141E425F5D00392763 /* TextViewLayout.swift */; };
+		53B63AED2455F5DC0034ECA1 /* LayoutMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63A9A2455F5DC0034ECA1 /* LayoutMeasurement.swift */; };
+		53B63AEE2455F5DC0034ECA1 /* Flexibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63A9B2455F5DC0034ECA1 /* Flexibility.swift */; };
+		53B63AEF2455F5DC0034ECA1 /* ConfigurableLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63A9C2455F5DC0034ECA1 /* ConfigurableLayout.swift */; };
+		53B63AF02455F5DC0034ECA1 /* ViewRecycler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63A9D2455F5DC0034ECA1 /* ViewRecycler.swift */; };
+		53B63AF12455F5DC0034ECA1 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63A9E2455F5DC0034ECA1 /* Animation.swift */; };
+		53B63AF22455F5DC0034ECA1 /* AppKitSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63A9F2455F5DC0034ECA1 /* AppKitSupport.swift */; };
+		53B63AF32455F5DC0034ECA1 /* Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AA02455F5DC0034ECA1 /* Alignment.swift */; };
+		53B63AF42455F5DC0034ECA1 /* Axis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AA12455F5DC0034ECA1 /* Axis.swift */; };
+		53B63AF52455F5DC0034ECA1 /* CFAbsoluteTimeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AA32455F5DC0034ECA1 /* CFAbsoluteTimeExtension.swift */; };
+		53B63AF62455F5DC0034ECA1 /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AA42455F5DC0034ECA1 /* CGSizeExtension.swift */; };
+		53B63AF72455F5DC0034ECA1 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AA52455F5DC0034ECA1 /* CGFloatExtension.swift */; };
+		53B63AF82455F5DC0034ECA1 /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AA62455F5DC0034ECA1 /* NSAttributedStringExtension.swift */; };
+		53B63AF92455F5DC0034ECA1 /* TextViewDefaultFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AA72455F5DC0034ECA1 /* TextViewDefaultFont.swift */; };
+		53B63AFA2455F5DC0034ECA1 /* UIKitSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AA82455F5DC0034ECA1 /* UIKitSupport.swift */; };
+		53B63AFB2455F5DC0034ECA1 /* AxisPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AAA2455F5DC0034ECA1 /* AxisPoint.swift */; };
+		53B63AFC2455F5DC0034ECA1 /* AxisFlexibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AAB2455F5DC0034ECA1 /* AxisFlexibility.swift */; };
+		53B63AFD2455F5DC0034ECA1 /* AxisSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AAC2455F5DC0034ECA1 /* AxisSize.swift */; };
+		53B63AFE2455F5DC0034ECA1 /* StackLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AAE2455F5DC0034ECA1 /* StackLayout.swift */; };
+		53B63AFF2455F5DC0034ECA1 /* ButtonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AAF2455F5DC0034ECA1 /* ButtonLayout.swift */; };
+		53B63B002455F5DC0034ECA1 /* SizeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AB02455F5DC0034ECA1 /* SizeLayout.swift */; };
+		53B63B012455F5DC0034ECA1 /* OverlayLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AB12455F5DC0034ECA1 /* OverlayLayout.swift */; };
+		53B63B022455F5DC0034ECA1 /* TextViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AB22455F5DC0034ECA1 /* TextViewLayout.swift */; };
+		53B63B032455F5DC0034ECA1 /* LabelLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AB32455F5DC0034ECA1 /* LabelLayout.swift */; };
+		53B63B042455F5DC0034ECA1 /* InsetLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AB42455F5DC0034ECA1 /* InsetLayout.swift */; };
+		53B63B052455F5DC0034ECA1 /* BaseLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AB52455F5DC0034ECA1 /* BaseLayout.swift */; };
+		53B63B062455F5DC0034ECA1 /* LayoutKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B63AB62455F5DC0034ECA1 /* LayoutKit.h */; };
+		53B63B072455F5DC0034ECA1 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AB72455F5DC0034ECA1 /* Layout.swift */; };
+		53B63B082455F5DC0034ECA1 /* LayoutKitObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B63AB82455F5DC0034ECA1 /* LayoutKitObjC.h */; };
+		53B63B092455F5DC0034ECA1 /* ReloadableViewUpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ABA2455F5DC0034ECA1 /* ReloadableViewUpdateManager.swift */; };
+		53B63B0A2455F5DC0034ECA1 /* BatchUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ABB2455F5DC0034ECA1 /* BatchUpdates.swift */; };
+		53B63B0B2455F5DC0034ECA1 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ABC2455F5DC0034ECA1 /* StackView.swift */; };
+		53B63B0C2455F5DC0034ECA1 /* ReloadableViewLayoutAdapter+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ABD2455F5DC0034ECA1 /* ReloadableViewLayoutAdapter+UITableView.swift */; };
+		53B63B0D2455F5DC0034ECA1 /* ReloadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ABE2455F5DC0034ECA1 /* ReloadableView.swift */; };
+		53B63B0E2455F5DC0034ECA1 /* ReloadableViewLayoutAdapter+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ABF2455F5DC0034ECA1 /* ReloadableViewLayoutAdapter+UICollectionView.swift */; };
+		53B63B0F2455F5DC0034ECA1 /* ReloadableViewLayoutAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AC02455F5DC0034ECA1 /* ReloadableViewLayoutAdapter.swift */; };
+		53B63B102455F5DC0034ECA1 /* LayoutAdapterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AC12455F5DC0034ECA1 /* LayoutAdapterCollectionView.swift */; };
+		53B63B112455F5DC0034ECA1 /* LayoutAdapterTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AC22455F5DC0034ECA1 /* LayoutAdapterTableView.swift */; };
+		53B63B122455F5DC0034ECA1 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AC32455F5DC0034ECA1 /* Text.swift */; };
+		53B63B132455F5DC0034ECA1 /* LayoutArrangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AC42455F5DC0034ECA1 /* LayoutArrangement.swift */; };
+		53B63B142455F5DC0034ECA1 /* LOKTextViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AC62455F5DC0034ECA1 /* LOKTextViewLayout.swift */; };
+		53B63B152455F5DC0034ECA1 /* LOKLabelLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AC72455F5DC0034ECA1 /* LOKLabelLayout.swift */; };
+		53B63B162455F5DC0034ECA1 /* LOKInsetLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AC82455F5DC0034ECA1 /* LOKInsetLayout.swift */; };
+		53B63B172455F5DC0034ECA1 /* LOKButtonLayoutType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AC92455F5DC0034ECA1 /* LOKButtonLayoutType.swift */; };
+		53B63B182455F5DC0034ECA1 /* LOKAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ACA2455F5DC0034ECA1 /* LOKAlignment.swift */; };
+		53B63B192455F5DC0034ECA1 /* LOKLayoutArrangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ACB2455F5DC0034ECA1 /* LOKLayoutArrangement.swift */; };
+		53B63B1A2455F5DC0034ECA1 /* LOKSizeLayoutBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ACD2455F5DC0034ECA1 /* LOKSizeLayoutBuilder.m */; };
+		53B63B1B2455F5DC0034ECA1 /* LOKStackLayoutBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ACE2455F5DC0034ECA1 /* LOKStackLayoutBuilder.m */; };
+		53B63B1C2455F5DC0034ECA1 /* LOKLayoutBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B63ACF2455F5DC0034ECA1 /* LOKLayoutBuilder.h */; };
+		53B63B1D2455F5DC0034ECA1 /* LOKButtonLayoutBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B63AD02455F5DC0034ECA1 /* LOKButtonLayoutBuilder.h */; };
+		53B63B1E2455F5DC0034ECA1 /* LOKOverlayLayoutBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B63AD12455F5DC0034ECA1 /* LOKOverlayLayoutBuilder.h */; };
+		53B63B1F2455F5DC0034ECA1 /* LOKInsetLayoutBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AD22455F5DC0034ECA1 /* LOKInsetLayoutBuilder.m */; };
+		53B63B202455F5DC0034ECA1 /* LOKTextViewLayoutBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B63AD32455F5DC0034ECA1 /* LOKTextViewLayoutBuilder.h */; };
+		53B63B212455F5DC0034ECA1 /* LOKLabelLayoutBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AD42455F5DC0034ECA1 /* LOKLabelLayoutBuilder.m */; };
+		53B63B222455F5DC0034ECA1 /* LOKStackLayoutBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B63AD52455F5DC0034ECA1 /* LOKStackLayoutBuilder.h */; };
+		53B63B232455F5DC0034ECA1 /* LOKSizeLayoutBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B63AD62455F5DC0034ECA1 /* LOKSizeLayoutBuilder.h */; };
+		53B63B242455F5DC0034ECA1 /* LOKButtonLayoutBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AD72455F5DC0034ECA1 /* LOKButtonLayoutBuilder.m */; };
+		53B63B252455F5DC0034ECA1 /* LOKOverlayLayoutBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AD82455F5DC0034ECA1 /* LOKOverlayLayoutBuilder.m */; };
+		53B63B262455F5DC0034ECA1 /* LOKLabelLayoutBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B63AD92455F5DC0034ECA1 /* LOKLabelLayoutBuilder.h */; };
+		53B63B272455F5DC0034ECA1 /* LOKTextViewLayoutBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ADA2455F5DC0034ECA1 /* LOKTextViewLayoutBuilder.m */; };
+		53B63B282455F5DC0034ECA1 /* LOKInsetLayoutBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B63ADB2455F5DC0034ECA1 /* LOKInsetLayoutBuilder.h */; };
+		53B63B292455F5DC0034ECA1 /* LOKAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ADC2455F5DC0034ECA1 /* LOKAnimation.swift */; };
+		53B63B2A2455F5DC0034ECA1 /* LOKLayoutSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ADD2455F5DC0034ECA1 /* LOKLayoutSection.swift */; };
+		53B63B2B2455F5DC0034ECA1 /* LOKSizeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ADE2455F5DC0034ECA1 /* LOKSizeLayout.swift */; };
+		53B63B2C2455F5DC0034ECA1 /* LOKOverlayLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63ADF2455F5DC0034ECA1 /* LOKOverlayLayout.swift */; };
+		53B63B2D2455F5DC0034ECA1 /* ReverseWrappedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AE12455F5DC0034ECA1 /* ReverseWrappedLayout.swift */; };
+		53B63B2E2455F5DC0034ECA1 /* WrappedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AE22455F5DC0034ECA1 /* WrappedLayout.swift */; };
+		53B63B2F2455F5DC0034ECA1 /* LOKLayoutArrangementSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AE32455F5DC0034ECA1 /* LOKLayoutArrangementSection.swift */; };
+		53B63B302455F5DC0034ECA1 /* LOKLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AE42455F5DC0034ECA1 /* LOKLayout.swift */; };
+		53B63B312455F5DC0034ECA1 /* LOKBatchUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AE52455F5DC0034ECA1 /* LOKBatchUpdates.swift */; };
+		53B63B322455F5DC0034ECA1 /* LOKBaseLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AE62455F5DC0034ECA1 /* LOKBaseLayout.swift */; };
+		53B63B332455F5DC0034ECA1 /* LOKFlexibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AE72455F5DC0034ECA1 /* LOKFlexibility.swift */; };
+		53B63B342455F5DC0034ECA1 /* LOKLayoutMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AE82455F5DC0034ECA1 /* LOKLayoutMeasurement.swift */; };
+		53B63B352455F5DC0034ECA1 /* LOKStackLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AE92455F5DC0034ECA1 /* LOKStackLayout.swift */; };
+		53B63B362455F5DC0034ECA1 /* LOKReloadableViewLayoutAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AEA2455F5DC0034ECA1 /* LOKReloadableViewLayoutAdapter.swift */; };
+		53B63B372455F5DC0034ECA1 /* LOKButtonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63AEB2455F5DC0034ECA1 /* LOKButtonLayout.swift */; };
+		53B63B382455F5DC0034ECA1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53B63AEC2455F5DC0034ECA1 /* Info.plist */; };
 		75D94A361EA01B6A00A5FD01 /* OverlayLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D94A351EA01B6A00A5FD01 /* OverlayLayout.swift */; };
 		75D94A371EA01B7100A5FD01 /* OverlayLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D94A351EA01B6A00A5FD01 /* OverlayLayout.swift */; };
 		75D94A381EA01B7200A5FD01 /* OverlayLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D94A351EA01B6A00A5FD01 /* OverlayLayout.swift */; };
@@ -480,6 +556,83 @@
 		448CEC0E1E4E0CB500F8AD9E /* TextViewDefaultFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewDefaultFont.swift; sourceTree = "<group>"; };
 		44F968141E425F5D00392763 /* TextViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewLayout.swift; sourceTree = "<group>"; };
 		44F968161E42639500392763 /* TextViewLayoutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewLayoutTests.swift; sourceTree = "<group>"; };
+		53B63A9A2455F5DC0034ECA1 /* LayoutMeasurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutMeasurement.swift; sourceTree = "<group>"; };
+		53B63A9B2455F5DC0034ECA1 /* Flexibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flexibility.swift; sourceTree = "<group>"; };
+		53B63A9C2455F5DC0034ECA1 /* ConfigurableLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurableLayout.swift; sourceTree = "<group>"; };
+		53B63A9D2455F5DC0034ECA1 /* ViewRecycler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRecycler.swift; sourceTree = "<group>"; };
+		53B63A9E2455F5DC0034ECA1 /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		53B63A9F2455F5DC0034ECA1 /* AppKitSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppKitSupport.swift; sourceTree = "<group>"; };
+		53B63AA02455F5DC0034ECA1 /* Alignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alignment.swift; sourceTree = "<group>"; };
+		53B63AA12455F5DC0034ECA1 /* Axis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Axis.swift; sourceTree = "<group>"; };
+		53B63AA32455F5DC0034ECA1 /* CFAbsoluteTimeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFAbsoluteTimeExtension.swift; sourceTree = "<group>"; };
+		53B63AA42455F5DC0034ECA1 /* CGSizeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
+		53B63AA52455F5DC0034ECA1 /* CGFloatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
+		53B63AA62455F5DC0034ECA1 /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
+		53B63AA72455F5DC0034ECA1 /* TextViewDefaultFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewDefaultFont.swift; sourceTree = "<group>"; };
+		53B63AA82455F5DC0034ECA1 /* UIKitSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitSupport.swift; sourceTree = "<group>"; };
+		53B63AAA2455F5DC0034ECA1 /* AxisPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxisPoint.swift; sourceTree = "<group>"; };
+		53B63AAB2455F5DC0034ECA1 /* AxisFlexibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxisFlexibility.swift; sourceTree = "<group>"; };
+		53B63AAC2455F5DC0034ECA1 /* AxisSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxisSize.swift; sourceTree = "<group>"; };
+		53B63AAE2455F5DC0034ECA1 /* StackLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackLayout.swift; sourceTree = "<group>"; };
+		53B63AAF2455F5DC0034ECA1 /* ButtonLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonLayout.swift; sourceTree = "<group>"; };
+		53B63AB02455F5DC0034ECA1 /* SizeLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeLayout.swift; sourceTree = "<group>"; };
+		53B63AB12455F5DC0034ECA1 /* OverlayLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayLayout.swift; sourceTree = "<group>"; };
+		53B63AB22455F5DC0034ECA1 /* TextViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewLayout.swift; sourceTree = "<group>"; };
+		53B63AB32455F5DC0034ECA1 /* LabelLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelLayout.swift; sourceTree = "<group>"; };
+		53B63AB42455F5DC0034ECA1 /* InsetLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetLayout.swift; sourceTree = "<group>"; };
+		53B63AB52455F5DC0034ECA1 /* BaseLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLayout.swift; sourceTree = "<group>"; };
+		53B63AB62455F5DC0034ECA1 /* LayoutKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutKit.h; sourceTree = "<group>"; };
+		53B63AB72455F5DC0034ECA1 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		53B63AB82455F5DC0034ECA1 /* LayoutKitObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutKitObjC.h; sourceTree = "<group>"; };
+		53B63ABA2455F5DC0034ECA1 /* ReloadableViewUpdateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReloadableViewUpdateManager.swift; sourceTree = "<group>"; };
+		53B63ABB2455F5DC0034ECA1 /* BatchUpdates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatchUpdates.swift; sourceTree = "<group>"; };
+		53B63ABC2455F5DC0034ECA1 /* StackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		53B63ABD2455F5DC0034ECA1 /* ReloadableViewLayoutAdapter+UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReloadableViewLayoutAdapter+UITableView.swift"; sourceTree = "<group>"; };
+		53B63ABE2455F5DC0034ECA1 /* ReloadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReloadableView.swift; sourceTree = "<group>"; };
+		53B63ABF2455F5DC0034ECA1 /* ReloadableViewLayoutAdapter+UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReloadableViewLayoutAdapter+UICollectionView.swift"; sourceTree = "<group>"; };
+		53B63AC02455F5DC0034ECA1 /* ReloadableViewLayoutAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReloadableViewLayoutAdapter.swift; sourceTree = "<group>"; };
+		53B63AC12455F5DC0034ECA1 /* LayoutAdapterCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutAdapterCollectionView.swift; sourceTree = "<group>"; };
+		53B63AC22455F5DC0034ECA1 /* LayoutAdapterTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutAdapterTableView.swift; sourceTree = "<group>"; };
+		53B63AC32455F5DC0034ECA1 /* Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		53B63AC42455F5DC0034ECA1 /* LayoutArrangement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutArrangement.swift; sourceTree = "<group>"; };
+		53B63AC62455F5DC0034ECA1 /* LOKTextViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKTextViewLayout.swift; sourceTree = "<group>"; };
+		53B63AC72455F5DC0034ECA1 /* LOKLabelLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKLabelLayout.swift; sourceTree = "<group>"; };
+		53B63AC82455F5DC0034ECA1 /* LOKInsetLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKInsetLayout.swift; sourceTree = "<group>"; };
+		53B63AC92455F5DC0034ECA1 /* LOKButtonLayoutType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKButtonLayoutType.swift; sourceTree = "<group>"; };
+		53B63ACA2455F5DC0034ECA1 /* LOKAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKAlignment.swift; sourceTree = "<group>"; };
+		53B63ACB2455F5DC0034ECA1 /* LOKLayoutArrangement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKLayoutArrangement.swift; sourceTree = "<group>"; };
+		53B63ACD2455F5DC0034ECA1 /* LOKSizeLayoutBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOKSizeLayoutBuilder.m; sourceTree = "<group>"; };
+		53B63ACE2455F5DC0034ECA1 /* LOKStackLayoutBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOKStackLayoutBuilder.m; sourceTree = "<group>"; };
+		53B63ACF2455F5DC0034ECA1 /* LOKLayoutBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOKLayoutBuilder.h; sourceTree = "<group>"; };
+		53B63AD02455F5DC0034ECA1 /* LOKButtonLayoutBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOKButtonLayoutBuilder.h; sourceTree = "<group>"; };
+		53B63AD12455F5DC0034ECA1 /* LOKOverlayLayoutBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOKOverlayLayoutBuilder.h; sourceTree = "<group>"; };
+		53B63AD22455F5DC0034ECA1 /* LOKInsetLayoutBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOKInsetLayoutBuilder.m; sourceTree = "<group>"; };
+		53B63AD32455F5DC0034ECA1 /* LOKTextViewLayoutBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOKTextViewLayoutBuilder.h; sourceTree = "<group>"; };
+		53B63AD42455F5DC0034ECA1 /* LOKLabelLayoutBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOKLabelLayoutBuilder.m; sourceTree = "<group>"; };
+		53B63AD52455F5DC0034ECA1 /* LOKStackLayoutBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOKStackLayoutBuilder.h; sourceTree = "<group>"; };
+		53B63AD62455F5DC0034ECA1 /* LOKSizeLayoutBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOKSizeLayoutBuilder.h; sourceTree = "<group>"; };
+		53B63AD72455F5DC0034ECA1 /* LOKButtonLayoutBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOKButtonLayoutBuilder.m; sourceTree = "<group>"; };
+		53B63AD82455F5DC0034ECA1 /* LOKOverlayLayoutBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOKOverlayLayoutBuilder.m; sourceTree = "<group>"; };
+		53B63AD92455F5DC0034ECA1 /* LOKLabelLayoutBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOKLabelLayoutBuilder.h; sourceTree = "<group>"; };
+		53B63ADA2455F5DC0034ECA1 /* LOKTextViewLayoutBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOKTextViewLayoutBuilder.m; sourceTree = "<group>"; };
+		53B63ADB2455F5DC0034ECA1 /* LOKInsetLayoutBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOKInsetLayoutBuilder.h; sourceTree = "<group>"; };
+		53B63ADC2455F5DC0034ECA1 /* LOKAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKAnimation.swift; sourceTree = "<group>"; };
+		53B63ADD2455F5DC0034ECA1 /* LOKLayoutSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKLayoutSection.swift; sourceTree = "<group>"; };
+		53B63ADE2455F5DC0034ECA1 /* LOKSizeLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKSizeLayout.swift; sourceTree = "<group>"; };
+		53B63ADF2455F5DC0034ECA1 /* LOKOverlayLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKOverlayLayout.swift; sourceTree = "<group>"; };
+		53B63AE12455F5DC0034ECA1 /* ReverseWrappedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseWrappedLayout.swift; sourceTree = "<group>"; };
+		53B63AE22455F5DC0034ECA1 /* WrappedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrappedLayout.swift; sourceTree = "<group>"; };
+		53B63AE32455F5DC0034ECA1 /* LOKLayoutArrangementSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKLayoutArrangementSection.swift; sourceTree = "<group>"; };
+		53B63AE42455F5DC0034ECA1 /* LOKLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKLayout.swift; sourceTree = "<group>"; };
+		53B63AE52455F5DC0034ECA1 /* LOKBatchUpdates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKBatchUpdates.swift; sourceTree = "<group>"; };
+		53B63AE62455F5DC0034ECA1 /* LOKBaseLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKBaseLayout.swift; sourceTree = "<group>"; };
+		53B63AE72455F5DC0034ECA1 /* LOKFlexibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKFlexibility.swift; sourceTree = "<group>"; };
+		53B63AE82455F5DC0034ECA1 /* LOKLayoutMeasurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKLayoutMeasurement.swift; sourceTree = "<group>"; };
+		53B63AE92455F5DC0034ECA1 /* LOKStackLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKStackLayout.swift; sourceTree = "<group>"; };
+		53B63AEA2455F5DC0034ECA1 /* LOKReloadableViewLayoutAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKReloadableViewLayoutAdapter.swift; sourceTree = "<group>"; };
+		53B63AEB2455F5DC0034ECA1 /* LOKButtonLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOKButtonLayout.swift; sourceTree = "<group>"; };
+		53B63AEC2455F5DC0034ECA1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B63B3A2455F6020034ECA1 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		75D94A351EA01B6A00A5FD01 /* OverlayLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayLayout.swift; sourceTree = "<group>"; };
 		75D94A3A1EA045F100A5FD01 /* OverlayLayoutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayLayoutTests.swift; sourceTree = "<group>"; };
 		75D94A3F1EA05D5A00A5FD01 /* OverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayViewController.swift; sourceTree = "<group>"; };
@@ -664,7 +817,10 @@
 		0BCB75531D871FC40065E02A = {
 			isa = PBXGroup;
 			children = (
+				53B63B3A2455F6020034ECA1 /* Package.swift */,
+				53B63A992455F5DC0034ECA1 /* Sources */,
 				0B7B269E1D919A9200CD1956 /* LayoutKit.playground */,
+				53B63AEC2455F5DC0034ECA1 /* Info.plist */,
 				0BCB75611D8720110065E02A /* LayoutKit */,
 				0BCB756C1D8720110065E02A /* LayoutKitTests */,
 				0BCB75B71D8723B30065E02A /* ExampleLayouts */,
@@ -830,6 +986,152 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		53B63A992455F5DC0034ECA1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				53B63B392455F5E00034ECA1 /* LayoutKit */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		53B63AA22455F5DC0034ECA1 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				53B63AA32455F5DC0034ECA1 /* CFAbsoluteTimeExtension.swift */,
+				53B63AA42455F5DC0034ECA1 /* CGSizeExtension.swift */,
+				53B63AA52455F5DC0034ECA1 /* CGFloatExtension.swift */,
+				53B63AA62455F5DC0034ECA1 /* NSAttributedStringExtension.swift */,
+				53B63AA72455F5DC0034ECA1 /* TextViewDefaultFont.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		53B63AA92455F5DC0034ECA1 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				53B63AAA2455F5DC0034ECA1 /* AxisPoint.swift */,
+				53B63AAB2455F5DC0034ECA1 /* AxisFlexibility.swift */,
+				53B63AAC2455F5DC0034ECA1 /* AxisSize.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		53B63AAD2455F5DC0034ECA1 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				53B63AAE2455F5DC0034ECA1 /* StackLayout.swift */,
+				53B63AAF2455F5DC0034ECA1 /* ButtonLayout.swift */,
+				53B63AB02455F5DC0034ECA1 /* SizeLayout.swift */,
+				53B63AB12455F5DC0034ECA1 /* OverlayLayout.swift */,
+				53B63AB22455F5DC0034ECA1 /* TextViewLayout.swift */,
+				53B63AB32455F5DC0034ECA1 /* LabelLayout.swift */,
+				53B63AB42455F5DC0034ECA1 /* InsetLayout.swift */,
+				53B63AB52455F5DC0034ECA1 /* BaseLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		53B63AB92455F5DC0034ECA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53B63ABA2455F5DC0034ECA1 /* ReloadableViewUpdateManager.swift */,
+				53B63ABB2455F5DC0034ECA1 /* BatchUpdates.swift */,
+				53B63ABC2455F5DC0034ECA1 /* StackView.swift */,
+				53B63ABD2455F5DC0034ECA1 /* ReloadableViewLayoutAdapter+UITableView.swift */,
+				53B63ABE2455F5DC0034ECA1 /* ReloadableView.swift */,
+				53B63ABF2455F5DC0034ECA1 /* ReloadableViewLayoutAdapter+UICollectionView.swift */,
+				53B63AC02455F5DC0034ECA1 /* ReloadableViewLayoutAdapter.swift */,
+				53B63AC12455F5DC0034ECA1 /* LayoutAdapterCollectionView.swift */,
+				53B63AC22455F5DC0034ECA1 /* LayoutAdapterTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53B63AC52455F5DC0034ECA1 /* ObjCSupport */ = {
+			isa = PBXGroup;
+			children = (
+				53B63AC62455F5DC0034ECA1 /* LOKTextViewLayout.swift */,
+				53B63AC72455F5DC0034ECA1 /* LOKLabelLayout.swift */,
+				53B63AC82455F5DC0034ECA1 /* LOKInsetLayout.swift */,
+				53B63AC92455F5DC0034ECA1 /* LOKButtonLayoutType.swift */,
+				53B63ACA2455F5DC0034ECA1 /* LOKAlignment.swift */,
+				53B63ACB2455F5DC0034ECA1 /* LOKLayoutArrangement.swift */,
+				53B63ACC2455F5DC0034ECA1 /* Builders */,
+				53B63ADC2455F5DC0034ECA1 /* LOKAnimation.swift */,
+				53B63ADD2455F5DC0034ECA1 /* LOKLayoutSection.swift */,
+				53B63ADE2455F5DC0034ECA1 /* LOKSizeLayout.swift */,
+				53B63ADF2455F5DC0034ECA1 /* LOKOverlayLayout.swift */,
+				53B63AE02455F5DC0034ECA1 /* Internal */,
+				53B63AE32455F5DC0034ECA1 /* LOKLayoutArrangementSection.swift */,
+				53B63AE42455F5DC0034ECA1 /* LOKLayout.swift */,
+				53B63AE52455F5DC0034ECA1 /* LOKBatchUpdates.swift */,
+				53B63AE62455F5DC0034ECA1 /* LOKBaseLayout.swift */,
+				53B63AE72455F5DC0034ECA1 /* LOKFlexibility.swift */,
+				53B63AE82455F5DC0034ECA1 /* LOKLayoutMeasurement.swift */,
+				53B63AE92455F5DC0034ECA1 /* LOKStackLayout.swift */,
+				53B63AEA2455F5DC0034ECA1 /* LOKReloadableViewLayoutAdapter.swift */,
+				53B63AEB2455F5DC0034ECA1 /* LOKButtonLayout.swift */,
+			);
+			path = ObjCSupport;
+			sourceTree = "<group>";
+		};
+		53B63ACC2455F5DC0034ECA1 /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				53B63ACD2455F5DC0034ECA1 /* LOKSizeLayoutBuilder.m */,
+				53B63ACE2455F5DC0034ECA1 /* LOKStackLayoutBuilder.m */,
+				53B63ACF2455F5DC0034ECA1 /* LOKLayoutBuilder.h */,
+				53B63AD02455F5DC0034ECA1 /* LOKButtonLayoutBuilder.h */,
+				53B63AD12455F5DC0034ECA1 /* LOKOverlayLayoutBuilder.h */,
+				53B63AD22455F5DC0034ECA1 /* LOKInsetLayoutBuilder.m */,
+				53B63AD32455F5DC0034ECA1 /* LOKTextViewLayoutBuilder.h */,
+				53B63AD42455F5DC0034ECA1 /* LOKLabelLayoutBuilder.m */,
+				53B63AD52455F5DC0034ECA1 /* LOKStackLayoutBuilder.h */,
+				53B63AD62455F5DC0034ECA1 /* LOKSizeLayoutBuilder.h */,
+				53B63AD72455F5DC0034ECA1 /* LOKButtonLayoutBuilder.m */,
+				53B63AD82455F5DC0034ECA1 /* LOKOverlayLayoutBuilder.m */,
+				53B63AD92455F5DC0034ECA1 /* LOKLabelLayoutBuilder.h */,
+				53B63ADA2455F5DC0034ECA1 /* LOKTextViewLayoutBuilder.m */,
+				53B63ADB2455F5DC0034ECA1 /* LOKInsetLayoutBuilder.h */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
+		53B63AE02455F5DC0034ECA1 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				53B63AE12455F5DC0034ECA1 /* ReverseWrappedLayout.swift */,
+				53B63AE22455F5DC0034ECA1 /* WrappedLayout.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		53B63B392455F5E00034ECA1 /* LayoutKit */ = {
+			isa = PBXGroup;
+			children = (
+				53B63A9A2455F5DC0034ECA1 /* LayoutMeasurement.swift */,
+				53B63A9B2455F5DC0034ECA1 /* Flexibility.swift */,
+				53B63A9C2455F5DC0034ECA1 /* ConfigurableLayout.swift */,
+				53B63A9D2455F5DC0034ECA1 /* ViewRecycler.swift */,
+				53B63A9E2455F5DC0034ECA1 /* Animation.swift */,
+				53B63A9F2455F5DC0034ECA1 /* AppKitSupport.swift */,
+				53B63AA02455F5DC0034ECA1 /* Alignment.swift */,
+				53B63AA12455F5DC0034ECA1 /* Axis.swift */,
+				53B63AA22455F5DC0034ECA1 /* Internal */,
+				53B63AA82455F5DC0034ECA1 /* UIKitSupport.swift */,
+				53B63AA92455F5DC0034ECA1 /* Math */,
+				53B63AAD2455F5DC0034ECA1 /* Layouts */,
+				53B63AB62455F5DC0034ECA1 /* LayoutKit.h */,
+				53B63AB72455F5DC0034ECA1 /* Layout.swift */,
+				53B63AB82455F5DC0034ECA1 /* LayoutKitObjC.h */,
+				53B63AB92455F5DC0034ECA1 /* Views */,
+				53B63AC32455F5DC0034ECA1 /* Text.swift */,
+				53B63AC42455F5DC0034ECA1 /* LayoutArrangement.swift */,
+				53B63AC52455F5DC0034ECA1 /* ObjCSupport */,
+			);
+			path = LayoutKit;
+			sourceTree = "<group>";
+		};
 		7E3107A82033B820009BA47A /* Internal */ = {
 			isa = PBXGroup;
 			children = (
@@ -921,6 +1223,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BCB75701D8720110065E02A /* LayoutKit.h in Headers */,
+				53B63B232455F5DC0034ECA1 /* LOKSizeLayoutBuilder.h in Headers */,
+				53B63B1D2455F5DC0034ECA1 /* LOKButtonLayoutBuilder.h in Headers */,
+				53B63B1E2455F5DC0034ECA1 /* LOKOverlayLayoutBuilder.h in Headers */,
+				53B63B262455F5DC0034ECA1 /* LOKLabelLayoutBuilder.h in Headers */,
+				53B63B082455F5DC0034ECA1 /* LayoutKitObjC.h in Headers */,
+				53B63B202455F5DC0034ECA1 /* LOKTextViewLayoutBuilder.h in Headers */,
+				53B63B062455F5DC0034ECA1 /* LayoutKit.h in Headers */,
+				53B63B222455F5DC0034ECA1 /* LOKStackLayoutBuilder.h in Headers */,
+				53B63B1C2455F5DC0034ECA1 /* LOKLayoutBuilder.h in Headers */,
+				53B63B282455F5DC0034ECA1 /* LOKInsetLayoutBuilder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1244,6 +1556,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B63B382455F5DC0034ECA1 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1346,42 +1659,107 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B63B132455F5DC0034ECA1 /* LayoutArrangement.swift in Sources */,
+				53B63B332455F5DC0034ECA1 /* LOKFlexibility.swift in Sources */,
+				53B63AED2455F5DC0034ECA1 /* LayoutMeasurement.swift in Sources */,
+				53B63B172455F5DC0034ECA1 /* LOKButtonLayoutType.swift in Sources */,
+				53B63AF32455F5DC0034ECA1 /* Alignment.swift in Sources */,
+				53B63B182455F5DC0034ECA1 /* LOKAlignment.swift in Sources */,
+				53B63B192455F5DC0034ECA1 /* LOKLayoutArrangement.swift in Sources */,
+				53B63B2D2455F5DC0034ECA1 /* ReverseWrappedLayout.swift in Sources */,
+				53B63B032455F5DC0034ECA1 /* LabelLayout.swift in Sources */,
+				53B63B0D2455F5DC0034ECA1 /* ReloadableView.swift in Sources */,
+				53B63AF02455F5DC0034ECA1 /* ViewRecycler.swift in Sources */,
+				53B63AFD2455F5DC0034ECA1 /* AxisSize.swift in Sources */,
 				0BCB76051D8724800065E02A /* StackLayout.swift in Sources */,
+				53B63AF62455F5DC0034ECA1 /* CGSizeExtension.swift in Sources */,
+				53B63AF72455F5DC0034ECA1 /* CGFloatExtension.swift in Sources */,
 				0BCB760D1D8724800065E02A /* LayoutAdapterTableView.swift in Sources */,
+				53B63B0E2455F5DC0034ECA1 /* ReloadableViewLayoutAdapter+UICollectionView.swift in Sources */,
+				53B63B0B2455F5DC0034ECA1 /* StackView.swift in Sources */,
+				53B63B112455F5DC0034ECA1 /* LayoutAdapterTableView.swift in Sources */,
+				53B63AEE2455F5DC0034ECA1 /* Flexibility.swift in Sources */,
 				0BCB76071D8724800065E02A /* AxisPoint.swift in Sources */,
+				53B63B072455F5DC0034ECA1 /* Layout.swift in Sources */,
+				53B63B092455F5DC0034ECA1 /* ReloadableViewUpdateManager.swift in Sources */,
+				53B63AF22455F5DC0034ECA1 /* AppKitSupport.swift in Sources */,
+				53B63AF52455F5DC0034ECA1 /* CFAbsoluteTimeExtension.swift in Sources */,
+				53B63B292455F5DC0034ECA1 /* LOKAnimation.swift in Sources */,
 				0BCB75F71D8724800065E02A /* Animation.swift in Sources */,
 				0BCB76081D8724800065E02A /* AxisSize.swift in Sources */,
+				53B63B2E2455F5DC0034ECA1 /* WrappedLayout.swift in Sources */,
+				53B63B012455F5DC0034ECA1 /* OverlayLayout.swift in Sources */,
 				4468A31D1E46460B00341D07 /* NSAttributedStringExtension.swift in Sources */,
 				0BCB760C1D8724800065E02A /* LayoutAdapterCollectionView.swift in Sources */,
+				53B63B2B2455F5DC0034ECA1 /* LOKSizeLayout.swift in Sources */,
 				0BD5F8291DB43B4500108688 /* ButtonLayout.swift in Sources */,
 				0BCB76001D8724800065E02A /* LayoutMeasurement.swift in Sources */,
+				53B63AFE2455F5DC0034ECA1 /* StackLayout.swift in Sources */,
 				0BCB76021D8724800065E02A /* InsetLayout.swift in Sources */,
 				0BCB76061D8724800065E02A /* AxisFlexibility.swift in Sources */,
+				53B63B312455F5DC0034ECA1 /* LOKBatchUpdates.swift in Sources */,
+				53B63B152455F5DC0034ECA1 /* LOKLabelLayout.swift in Sources */,
 				448CEC0F1E4E0CB500F8AD9E /* TextViewDefaultFont.swift in Sources */,
+				53B63B342455F5DC0034ECA1 /* LOKLayoutMeasurement.swift in Sources */,
+				53B63B252455F5DC0034ECA1 /* LOKOverlayLayoutBuilder.m in Sources */,
 				0BCB760E1D8724800065E02A /* ReloadableView.swift in Sources */,
+				53B63AF42455F5DC0034ECA1 /* Axis.swift in Sources */,
 				75D94A361EA01B6A00A5FD01 /* OverlayLayout.swift in Sources */,
 				0BCB75FD1D8724800065E02A /* CGSizeExtension.swift in Sources */,
+				53B63B2F2455F5DC0034ECA1 /* LOKLayoutArrangementSection.swift in Sources */,
 				0BCB760B1D8724800065E02A /* BatchUpdates.swift in Sources */,
+				53B63AF12455F5DC0034ECA1 /* Animation.swift in Sources */,
+				53B63B362455F5DC0034ECA1 /* LOKReloadableViewLayoutAdapter.swift in Sources */,
+				53B63B022455F5DC0034ECA1 /* TextViewLayout.swift in Sources */,
+				53B63B212455F5DC0034ECA1 /* LOKLabelLayoutBuilder.m in Sources */,
 				0BCB76011D8724800065E02A /* BaseLayout.swift in Sources */,
+				53B63AF82455F5DC0034ECA1 /* NSAttributedStringExtension.swift in Sources */,
+				53B63B1F2455F5DC0034ECA1 /* LOKInsetLayoutBuilder.m in Sources */,
 				0BCB75FA1D8724800065E02A /* ConfigurableLayout.swift in Sources */,
 				0BCB76111D8724800065E02A /* ReloadableViewLayoutAdapter.swift in Sources */,
+				53B63B102455F5DC0034ECA1 /* LayoutAdapterCollectionView.swift in Sources */,
+				53B63B0A2455F5DC0034ECA1 /* BatchUpdates.swift in Sources */,
+				53B63AFC2455F5DC0034ECA1 /* AxisFlexibility.swift in Sources */,
+				53B63B162455F5DC0034ECA1 /* LOKInsetLayout.swift in Sources */,
 				0BCB75F91D8724800065E02A /* Axis.swift in Sources */,
 				0BCB760A1D8724800065E02A /* ViewRecycler.swift in Sources */,
+				53B63AFA2455F5DC0034ECA1 /* UIKitSupport.swift in Sources */,
+				53B63B0C2455F5DC0034ECA1 /* ReloadableViewLayoutAdapter+UITableView.swift in Sources */,
 				0BCB76091D8724800065E02A /* UIKitSupport.swift in Sources */,
 				0BCB75FE1D8724800065E02A /* Layout.swift in Sources */,
 				0BCB75FF1D8724800065E02A /* LayoutArrangement.swift in Sources */,
+				53B63AF92455F5DC0034ECA1 /* TextViewDefaultFont.swift in Sources */,
+				53B63B302455F5DC0034ECA1 /* LOKLayout.swift in Sources */,
 				0BCB760F1D8724800065E02A /* ReloadableViewLayoutAdapter+UICollectionView.swift in Sources */,
 				0BCB75F61D8724800065E02A /* Alignment.swift in Sources */,
 				0BCB75FC1D8724800065E02A /* CFAbsoluteTimeExtension.swift in Sources */,
 				0B765F2C1DC0514F000BF1FD /* CGFloatExtension.swift in Sources */,
+				53B63B2C2455F5DC0034ECA1 /* LOKOverlayLayout.swift in Sources */,
+				53B63B002455F5DC0034ECA1 /* SizeLayout.swift in Sources */,
+				53B63B142455F5DC0034ECA1 /* LOKTextViewLayout.swift in Sources */,
 				0BCB76041D8724800065E02A /* SizeLayout.swift in Sources */,
+				53B63B352455F5DC0034ECA1 /* LOKStackLayout.swift in Sources */,
+				53B63B272455F5DC0034ECA1 /* LOKTextViewLayoutBuilder.m in Sources */,
+				53B63B322455F5DC0034ECA1 /* LOKBaseLayout.swift in Sources */,
+				53B63B122455F5DC0034ECA1 /* Text.swift in Sources */,
 				0BCB76031D8724800065E02A /* LabelLayout.swift in Sources */,
+				53B63AFB2455F5DC0034ECA1 /* AxisPoint.swift in Sources */,
+				53B63AFF2455F5DC0034ECA1 /* ButtonLayout.swift in Sources */,
+				53B63B2A2455F5DC0034ECA1 /* LOKLayoutSection.swift in Sources */,
+				53B63B0F2455F5DC0034ECA1 /* ReloadableViewLayoutAdapter.swift in Sources */,
 				0BCB76101D8724800065E02A /* ReloadableViewLayoutAdapter+UITableView.swift in Sources */,
+				53B63B1A2455F5DC0034ECA1 /* LOKSizeLayoutBuilder.m in Sources */,
+				53B63B042455F5DC0034ECA1 /* InsetLayout.swift in Sources */,
+				53B63B052455F5DC0034ECA1 /* BaseLayout.swift in Sources */,
 				0BCB75FB1D8724800065E02A /* Flexibility.swift in Sources */,
+				53B63B1B2455F5DC0034ECA1 /* LOKStackLayoutBuilder.m in Sources */,
+				53B63B242455F5DC0034ECA1 /* LOKButtonLayoutBuilder.m in Sources */,
+				53B63AEF2455F5DC0034ECA1 /* ConfigurableLayout.swift in Sources */,
 				0BCB76121D8724800065E02A /* ReloadableViewUpdateManager.swift in Sources */,
 				44F968151E425F5D00392763 /* TextViewLayout.swift in Sources */,
 				0BD42BDC1DB5EAAD00E04AA3 /* Text.swift in Sources */,
 				0BCB76131D8724800065E02A /* StackView.swift in Sources */,
+				53B63B372455F5DC0034ECA1 /* LOKButtonLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
